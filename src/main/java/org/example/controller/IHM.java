@@ -116,7 +116,7 @@ public class IHM {
     private static void displayUsers() {
         List<User> users = userDAO.getAllUsers();
         if (users.isEmpty()) {
-            System.out.println("No Todos Found.");
+            System.out.println("No User Found.");
         } else {
             System.out.println("### List of Users ###");
             for (User user : users) {
